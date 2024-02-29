@@ -77,6 +77,7 @@ public class PreOrderTraversal {//O(N)
                 }
             }
         }
+        
     }
     public static void main(String[] args) {
         int nodes[] = {1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1};
@@ -86,5 +87,6 @@ public class PreOrderTraversal {//O(N)
         // tree.inOrder(root);
         // tree.postOrder(root);
         tree.levelOrder(root);
+        
     }
 }
