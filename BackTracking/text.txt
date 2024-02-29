@@ -1,0 +1,10 @@
+Backtracking : 
+Backtracking is a problem-solving technique that involves exploring all possible solutions to a problem through a systematic search. It is commonly used in problems where there are multiple possible choices at each step, and the goal is to find one or more solutions that satisfy certain constraints.
+
+types:
+Decision: yes/No
+
+Optimisation: best way to go to the solution/sortest
+
+Enumeration: all possible ways to go to the solution
+

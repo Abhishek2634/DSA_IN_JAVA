@@ -1,0 +1,3 @@
+recursion?
+recursion is the method of solving computational problem where the solution depends on solutions to smaller instances of the same problem.
+in every recursive call we are making smaller problems and when the base case hit it returns back the value to the start to the stack.

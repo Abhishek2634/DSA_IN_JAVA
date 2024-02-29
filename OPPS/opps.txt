@@ -1,0 +1,72 @@
+//Access Modifiers:
+these are the keywords that define the access of the variable, methods ,functions, classes etc.
+
+Getter And Setters:
+getters and setters are use to get the value and set the value (by taking any parameter in setter function)
+
+Encapsulation: 
+it is defined as the wrapping up of data and methods under a single unit(capsule/class). It also implements Data Hiding.using Access specifiers.
+
+
+Constructors and Types:
+1.non- parameterised:
+2.parameterised:
+3.copy constructors:
+
+Shallow and Deep copy:
+shallow copy takes the refrence of the object not the actual object(pointing to the same object if value changes in one another got changed automatically.) . but the deep copy takes the actual object.
+In summary, the key difference between shallow copy and deep copy lies in how they handle nested objects. Shallow copy creates a new object with references to the same nested objects as the original, while deep copy creates a new object with copies of all nested objects, ensuring complete independence between the original and the copy.
+
+
+Destructors : 
+they are nothing but the garbage collector in java .in c++ you have to make them as there is no java collector available .
+
+Inheritance :
+it is the process by which the child class(derived class/subclass) extends the properties of the parent class(base class).
+
+Types:
+Single level Inheritance:
+in which only parent class and derived class is present. parent class -->  derived class.
+
+Multi-level Inheritance:
+in which derived class comes from another derived class.
+parent class --> derived/child class --> child class.
+
+Hierrachial Inheritance:
+in this we are having more than one child class of the parent class that extends his properties;
+
+Hybrid Inheritance:
+in this we are having parent class(Animal) then multiple child classes like(fish, bird, Mammal)and for each child classes consist of multiple classes(tuna,shark,whale) ,(peacock,eagle),(dog, humans).
+
+Multiple Inheritance:
+ when a class extends properties from two different classes this is known as Multiple Inheritance;
+
+Polymorphism :
+poly means many and morphism means forms meaning different ways to do the same task.eg: making different types of Constructors;
+
+Types :
+Compile time Polymorphism: eg:Method Overloading. Multiple functions with same name but different parameters or types of parameters is different.eg: sum(int a, int b). another function sum (float a ,float b). while they both do the same work of getting sum of nos. a and b.
+
+Run time Polymorphism : Method Overriding--> parent and child class consists of the same functions but with different definitions.
+
+Abstraction :
+Hiding all unnecessary details(Data Hiding) and showing only the imp parts to the user. in Encapsulation we only hide the data by using the keywords, Access specifiers but not showing the imp parts . In Abstraction we give the idea to the subclass (inherited classes) but not the actual implementation of how the things will implemented.
+
+concept of Abstraction is implemented by 2 different methods:
+1.Abstract Classes  --> Made by using abstarct keyword , objects cannot be made by these classes,can contain both abstract and non - abstract methods., can have constructors.
+2.Interfaces --> used to make multiple Inheritance . Interfaces are blueprint of class and class is a blueprint of object. interfaces implement 100% abstraction (Total abstraction).while Abstract classes implement b/w 0 - 100 %.
+
+1. interfaces make with the interface keyword.and they extends with the keyword "implements".
+2. variables in the interfaces are final ,public and static.
+3. All methods are public , abstract and without implementation.
+
+
+Static keyword:
+it is used to fix the value of the variable and just pass the references to the objects.it means there will be only one copy of that variable or method shared by all instances of the class.
+it helps to save memory as functions will not created again and again.
+
+super keyword: calls the constructor of parent class.
+it is used to :
+access parent properties, functions and properties
+
+
