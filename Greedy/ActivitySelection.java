@@ -12,8 +12,8 @@ public class ActivitySelection {
 
 
         // if arr is not sorted
-        int start1 [] = {1,3,0,5,8,5};
-        int end1 [] = {2,4,6,7,9,9};
+        int start1 [] = {5,1,3,0,5,8};
+        int end1 [] = {9,2,4,6,7,9};
         notSorted( start1, end1);
     }
     
@@ -36,6 +36,7 @@ public class ActivitySelection {
     }
 }
 static void notSorted(int start1[],int end1[]){
+    // st = {5,1,3,0,5,8}  en {9,2,4,6,7,9}  sort{2,4,6,7,9,9}
     ArrayList <Integer> ans = new ArrayList<>();
     int arr[][] = new int[start1.length][3];
     for(int i = 0; i < arr.length;i++){
