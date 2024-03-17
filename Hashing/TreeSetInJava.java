@@ -1,11 +1,19 @@
-import java.util.TreeMap;
+import java.util.HashSet;
 public class TreeSetInJava {
     public static void main(String[] args) {
-        TreeMap<String,Integer>thm = new TreeMap<>();
-        thm.put("abd",2);
-        thm.put("abcd",1);
-        thm.put("xyz",100);
-        thm.put("he",2);
-        System.out.println(thm);
+        // sorted in ascending order.
+        // TreeSet<String>set = new TreeSet<>();
+        // set.add("abhi");
+        // set.add("ramu");
+        // set.add("happpy");
+        // set.add("don");
+        // System.out.println(set);
+
+        HashSet<String>set = new HashSet<>();
+        set.add("abhi");
+        set.add("ramu");
+        set.add("appy");
+        set.add("don");
+        System.out.println(set);
     }
 }

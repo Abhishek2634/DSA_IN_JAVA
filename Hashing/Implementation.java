@@ -8,6 +8,18 @@ public class Implementation{
         hm.put("pak",0);
         hm.put("china",1);
 
+
+        // using entrySet();
+
+        // Set<HashMap.Entry<String,Integer>> entry = hm.entrySet();
+        // for(HashMap.Entry<String,Integer> ans : entry){
+        //     System.out.println(ans.getKey());
+        //     System.out.println(ans.getValue());
+        // }
+
+
+
+
         Set<String> s = hm.keySet();
         System.out.println(s);
 
