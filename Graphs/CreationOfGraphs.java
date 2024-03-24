@@ -58,14 +58,6 @@ public static void main(String[] args) {
      for(int i = 0; i < Graph.get(2).size();i++){
         Edge e = Graph.get(2).get(i);
         System.out.println(e.dest);
-     }
-
-
-
-
-
-
-                        
+     }               
 }
-    
 }
