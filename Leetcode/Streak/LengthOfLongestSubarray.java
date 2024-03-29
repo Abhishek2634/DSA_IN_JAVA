@@ -1,4 +1,3 @@
-package Leetcode.Streak;
 
 public class LengthOfLongestSubarray {
     public static void main(String[] args) {

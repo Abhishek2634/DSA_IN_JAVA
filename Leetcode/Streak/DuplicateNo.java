@@ -1,4 +1,3 @@
-package Leetcode.Streak;
 
 public class DuplicateNo {
     public static void main(String[] args) {

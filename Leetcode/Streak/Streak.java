@@ -1,4 +1,3 @@
-package Leetcode.Streak;
 import java.util.*;
 
 public class Streak {
