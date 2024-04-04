@@ -1,5 +1,5 @@
 package DP;
-
+import java.util.*;
 public class Fibonacci {
     public static void main(String[] args) {
         int n = 5;
@@ -8,12 +8,13 @@ public class Fibonacci {
 
         System.out.println(recursive (n));
         int dp[] = new int[n+1];
+        Arrays.fill(dp,-1);
         System.out.println(Dp(n,dp));
         System.out.println(Tabulation(n));
     }
     public static int Dp (int n, int dp[]){ // t.c - 0(n);
         if(n == 0 || n == 1) return n;
-        if(dp[n] != 0) return dp[n];
+        if(dp[n] != -1) return dp[n];
         dp[n] = Dp(n-1,dp) + Dp(n-2,dp);  // memoization in dp -> make use of dp array along with recursion.
         return dp[n];
     }
