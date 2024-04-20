@@ -25,7 +25,6 @@ public class CountingSort {
                 arr[j] = i;
                 j++;
                 freq[i]--;
-                System.out.print(i+" ");
             }
         }
         for(int i = 0; i < arr.length;i++){
