@@ -13,18 +13,19 @@ public class BinaryString {
             System.out.println(str);
             return;
         }
+
         // if(lastplace == 0){
-            //sit 0 on chair n
+        //     sit 0 on chair n
         //     binary(n-1, 0, str+"0");
         //     binary(n-1, 1, str+"1");
         // }else{
-            // if last place is 1
+        //     if last place is 1
         //     binary(n-1, 0, str+"0");
         // }
 
-        binary(n-1, 0, str+="0");
+        binary(n-1, 0, str+"0");
         if(lastplace == 0){
-            binary(n-1, 1, str+="1");
+            binary(n-1, 1, str+"1");
         }
     }
 }

@@ -8,11 +8,11 @@ public class Assignment {
     //    indices(arr,key,i);      // output -> 1 5 7 8
 
 
-    // String arr [] = new String[]{"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
-    // StringBuilder sb = new StringBuilder();
-    // int r = 0;
-    // String(2000,arr,sb,r);
-    // System.out.println(sb.toString());
+    String arr [] = new String[]{"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
+    StringBuilder sb = new StringBuilder();
+    int r = 0;
+    String(2000,arr,sb,r);
+    System.out.println(sb.toString());
 
 
     String a = "abhishek";

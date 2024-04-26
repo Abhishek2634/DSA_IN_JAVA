@@ -25,7 +25,7 @@ public class lonelyNo {
             arr[i+1]++;
         }
         for(int i = 0; i < ls.size();i++){
-            if(arr[ls.get(i)] == 0 && arr[ls.get(i)+1] == 1 && arr[ls.get(i)+2] == 0){
+            if(arr[ls.get(i)] == 0 && arr[ls.get(i) +1] == 1 && arr[ls.get(i)+2] == 0){
                 g.add(ls.get(i));
             }
         }
