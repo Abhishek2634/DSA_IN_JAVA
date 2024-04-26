@@ -31,7 +31,7 @@ public class QuickSort {
         // last element
         int partitionIdx = partition(arr,si,ei);
         quickSort(arr, si, partitionIdx-1);  //left 
-        quickSort(arr, partitionIdx+1, ei);  // right;
+        quickSort(arr, partitionIdx+1, ei);  // right;xx
 
         
     }
