@@ -8,7 +8,7 @@ public class LinkedListMethods {
         ll.addLast(2);
         ll.addFirst(7);
         ll.addFirst(2);
-        ll.add(0,10);
+        ll.add(3,10);
 
         System.out.println(ll);
         ll.removeFirst();
