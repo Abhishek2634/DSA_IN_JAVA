@@ -18,7 +18,6 @@ public class ActivitySelection {
     }
     
     static void sorted(int start[],int end[]){
-
         ArrayList<Integer> arr = new ArrayList<>();
         arr.add(0);
         int ans = 1;
